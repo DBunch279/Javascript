@@ -41,13 +41,11 @@ function press(number)
         dotflag = true;
     }
 }
-
 function setOP(operand)
 {
     operation = operand;
     OperationPerformed = true;
 }
-
 function calculate()
 {
     var result = 0;
@@ -70,7 +68,6 @@ function calculate()
     }
     displaybox.innerText = result;
 }
-
 function clr()
 {
     displaybox.innerText = 0;
